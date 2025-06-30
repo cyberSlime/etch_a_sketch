@@ -29,6 +29,14 @@ for (let i = 0; i < height; ++i) {
         square.addEventListener('mouseenter', () => {
             console.log("entered square " + i + j);
             square.classList.add("colored");
+
+            let r = Math.floor(Math.random() * 256);
+            let g =  Math.floor(Math.random() * 256);
+            let b =  Math.floor(Math.random() * 256);
+
+            square.style.backgroundColor = `rgb(${r}, ${g}, ${b})`;
+
+
         });
     }
 }
