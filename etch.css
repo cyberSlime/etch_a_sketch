@@ -15,7 +15,8 @@ body {
     flex-direction: column;
     width:600px;
     height: 600px;
-     
+    border: 10px solid black;
+    border-radius: 5px;
 }
 
 .row {
@@ -32,5 +33,9 @@ body {
     aspect-ratio: 1/1;
     justify-content:center;
     box-sizing:border-box;
+
+}
+
+.colored {
     background-color:blue;
 }
