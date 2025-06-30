@@ -1,0 +1,36 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 1;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+.theEtch {
+    display:flex;
+    flex-direction: column;
+    width:600px;
+    height: 600px;
+     
+}
+
+.row {
+
+    display:flex;
+    flex: 1;
+   
+
+}
+
+.square {
+     
+    flex:1;
+    aspect-ratio: 1/1;
+    justify-content:center;
+    box-sizing:border-box;
+    background-color:blue;
+}
